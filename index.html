@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>RocketTracker</title>
+	<link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="header-row">
+				<h1>RocketTracker</h1>
+				<p>Last Updated: Apr 29 1:56 PM (UTC)</p>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+
+		<main>
+			<div class="trip">
+				<div class="trip-header">
+					<div><h2>Earth ➜ Mars</h2></div>
+					<div><p>Launched: 10/31/2023</p></div>
+					<div><p>Landed: --/--/----</p></div>
+				</div>
+				<div>
+					<img src="Group 1.png" alt="earth to mars" width="100%">
+				</div>
+				<div>
+					<h3>Trip Overview</h3>
+					<div class="row">
+						<div class="col-3">
+							<div class="card">
+								<h4 id="active">Active</h4>
+								<p>Trip Status</p>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="card">
+								<h4>25%</h4>
+								<p>distance traveled</p>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="card">
+								<h4>56,250,000</h4>
+								<p>km traveled</p>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="card">
+								<h4>168,750,000</h4>
+								<p>km</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+</body>
+
 </html>
